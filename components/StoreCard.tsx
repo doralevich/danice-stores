@@ -3,7 +3,7 @@ import { OpenStatus } from "./OpenStatus";
 
 export function StoreCard({ store }: { store: Store }) {
   return (
-    <article className="flex flex-col border border-plum/20 p-6">
+    <article className="flex flex-col rounded-[10px] border border-plum/20 p-6">
       <h3 className="text-2xl leading-tight font-bold">{store.streetName}</h3>
       <p className="mt-2 text-lg leading-snug">
         {store.street}
