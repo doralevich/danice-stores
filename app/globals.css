@@ -55,3 +55,26 @@ iframe.instagram-media {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
+
+/* Store map (Leaflet). */
+.store-map {
+  z-index: 0; /* keep Leaflet's layers under the page chrome */
+  font-family: inherit;
+}
+.store-pin {
+  background: none;
+  border: 0;
+}
+.store-map .leaflet-popup-content-wrapper {
+  border-radius: 10px;
+  color: var(--color-plum);
+}
+.store-map .leaflet-popup-content {
+  font-size: 1rem;
+  line-height: 1.45;
+}
+.store-map .leaflet-popup-content a {
+  color: var(--color-magenta-deep);
+  font-weight: 600;
+  text-decoration: underline;
+}

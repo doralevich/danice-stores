@@ -6,6 +6,7 @@ import { HeroFlower } from "@/components/HeroFlower";
 import { InstagramFeed } from "@/components/InstagramFeed";
 import { Petal } from "@/components/Petal";
 import { StoreCard } from "@/components/StoreCard";
+import { StoreMap } from "@/components/StoreMap";
 
 const organization = {
   "@context": "https://schema.org",
@@ -77,7 +78,10 @@ export default function Home() {
       <section>
         <div className={`${wrap} py-14 sm:py-20`}>
           <h2 className={h2}>Find your Danice</h2>
-          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8">
+            <StoreMap stores={visibleStores} />
+          </div>
+          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {visibleStores.map((store) => (
               <StoreCard key={store.slug} store={store} />
             ))}
