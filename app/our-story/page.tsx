@@ -88,9 +88,9 @@ export default function OurStory() {
                 <Image
                   src={person.photo}
                   alt={person.name}
-                  width={112}
-                  height={112}
-                  className="size-24 shrink-0 object-cover sm:size-28"
+                  width={200}
+                  height={200}
+                  className="size-32 shrink-0 object-cover sm:size-44"
                 />
                 <div>
                   <h3 className="text-2xl leading-tight font-bold">
