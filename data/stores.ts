@@ -47,8 +47,9 @@ export const stores: Store[] = [
     zip: "10027",
     region: "Manhattan",
     // VERIFY with client before adding: phone (212) 665-0389, hours.
+    // Approximate: just west of Frederick Douglass Blvd. Confirm the pin.
     lat: 40.8107,
-    lng: -73.951,
+    lng: -73.9521,
     verified: true,
   },
   // Samples below: addresses come from old listings, hours are made up.
