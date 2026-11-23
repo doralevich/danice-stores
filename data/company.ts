@@ -20,6 +20,15 @@ export const company = {
     instagram: { handle: "@danicestores", url: "https://www.instagram.com/danicestores" },
     linkedin: { url: "https://www.linkedin.com/company/danice-stores-inc" },
   },
+  // Shown under "Our Team" on the Our Story page. Title and wording come from
+  // public listings and must be approved by the person named before launch.
+  team: [
+    {
+      name: "BJ Sara",
+      title: "Chief Operating Officer",
+      bio: "BJ leads retail operations at Danice, looking after the stores and the teams who run them. His focus is the same as the company\u2019s: keeping great style within reach in every neighborhood we serve.",
+    },
+  ],
   unverified: {
     officePhone: "(212) 776-1001",
     customerServiceEmail: "customerservice@danicestores.com",

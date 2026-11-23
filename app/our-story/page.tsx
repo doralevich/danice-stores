@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Button } from "@/components/Button";
+import { company } from "@/data/company";
 
 export const metadata: Metadata = {
   title: "Our Story",
@@ -70,6 +71,19 @@ export default function OurStory() {
             ))}
           </dl>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-5 pt-14 sm:px-8 sm:pt-20">
+        <h2 className="text-3xl font-extrabold sm:text-4xl">Our Team</h2>
+        <ul className="mt-8 grid gap-8 md:grid-cols-2">
+          {company.team.map((person) => (
+            <li key={person.name} className="border-l-4 border-magenta pl-5">
+              <h3 className="text-2xl leading-tight font-bold">{person.name}</h3>
+              <p className="mt-1 text-lg font-semibold text-magenta-deep">{person.title}</p>
+              <p className="mt-3 max-w-[48ch] text-lg leading-relaxed">{person.bio}</p>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section className="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-20">
