@@ -20,8 +20,14 @@ export function InstagramFeed({ url, handle }: { url: string; handle: string }) 
         data-instgrm-permalink={permalink}
         data-instgrm-version="14"
       >
-        <a href={permalink} className="text-lg font-semibold underline underline-offset-4">
+        <a
+          href={permalink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg font-semibold underline underline-offset-4"
+        >
           See {handle} on Instagram
+          <span className="sr-only"> (opens in a new tab)</span>
         </a>
       </blockquote>
       <Script

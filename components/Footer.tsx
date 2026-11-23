@@ -31,7 +31,12 @@ export function Footer() {
               { href: `mailto:${company.email}`, label: "Email Danice", Icon: EmailIcon },
             ].map(({ href, label, Icon }) => (
               <li key={label}>
-                <a href={href} aria-label={label} className="block hover:text-magenta-deep">
+                <a
+                  href={href}
+                  aria-label={href.startsWith("mailto:") ? label : `${label} (opens in a new tab)`}
+                  {...(href.startsWith("mailto:") ? {} : { target: "_blank", rel: "noopener noreferrer" })}
+                  className="block hover:text-magenta-deep"
+                >
                   <Icon className="size-8" />
                 </a>
               </li>
