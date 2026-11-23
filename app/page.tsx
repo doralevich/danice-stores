@@ -61,7 +61,7 @@ export default function Home() {
       <section className="bg-blush">
         <div className={`${wrap} py-12 sm:py-14`}>
           <h2 className="sr-only">What we carry</h2>
-          <ul className="grid grid-cols-2 gap-x-5 gap-y-2 text-3xl font-extrabold sm:flex sm:flex-wrap sm:items-center sm:gap-x-7 sm:text-4xl">
+          <ul className="grid grid-cols-2 gap-x-5 gap-y-2 text-2xl font-extrabold sm:flex sm:flex-wrap sm:items-center sm:gap-x-7 sm:text-4xl">
             {carry.map((item, i) => (
               <li key={item} className="flex items-center gap-x-5 sm:gap-x-7">
                 {i > 0 ? <Petal className="hidden w-8 sm:block" /> : null}
