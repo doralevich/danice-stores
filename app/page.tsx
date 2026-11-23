@@ -1,10 +1,106 @@
-import { Logo } from "@/components/Logo";
+import Link from "next/link";
+import { company } from "@/data/company";
+import { visibleStores } from "@/data/stores";
+import { Button } from "@/components/Button";
+import { Petal } from "@/components/Petal";
+import { StoreCard } from "@/components/StoreCard";
 
-export default function ComingSoon() {
+const organization = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: company.name,
+  legalName: company.legalName,
+  url: company.url,
+  foundingDate: String(company.founded),
+  sameAs: [company.social.instagram.url, company.social.linkedin.url],
+};
+
+const carry = ["Clothing", "Plus size", "Shoes", "Accessories"];
+
+const wrap = "mx-auto max-w-6xl px-5 sm:px-8";
+const h2 = "text-3xl font-extrabold sm:text-4xl";
+
+export default function Home() {
   return (
-    <main className="flex flex-1 items-center justify-center p-6">
-      <h1 className="sr-only">Danice Stores. Coming soon.</h1>
-      <Logo className="h-auto w-full max-w-[22rem] sm:max-w-[30rem]" />
-    </main>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }}
+      />
+
+      {/* Hero */}
+      <section className="overflow-hidden">
+        <div className={`${wrap} grid items-center gap-10 py-14 sm:py-20 md:grid-cols-[3fr_2fr]`}>
+          <div>
+            <h1 className="text-[clamp(2.75rem,7vw,5rem)] leading-[1.02] font-extrabold tracking-tight">
+              Great style.
+              <br />
+              <span className="text-magenta">Great price.</span>
+            </h1>
+            <p className="mt-6 max-w-[38ch] text-xl leading-relaxed sm:text-2xl sm:leading-relaxed">
+              Women&rsquo;s fashion, shoes, and accessories for every size. A
+              New York family business since 1934.
+            </p>
+            <p className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
+              <Button href="/#stores">Find a store</Button>
+              <Link
+                href="/#story"
+                className="text-lg font-semibold underline underline-offset-4 hover:text-magenta-deep"
+              >
+                Our story
+              </Link>
+            </p>
+          </div>
+          <div className="relative mx-auto aspect-square w-full max-w-xs rounded-full bg-blush md:max-w-none">
+            <Petal className="absolute inset-[9%]" />
+          </div>
+        </div>
+      </section>
+
+      {/* What we carry */}
+      <section className="bg-blush">
+        <div className={`${wrap} py-12 sm:py-14`}>
+          <h2 className="sr-only">What we carry</h2>
+          <ul className="grid grid-cols-2 gap-x-5 gap-y-2 text-2xl font-extrabold sm:flex sm:flex-wrap sm:items-center sm:gap-x-7 sm:text-4xl">
+            {carry.map((item, i) => (
+              <li key={item} className="flex items-center gap-x-5 sm:gap-x-7">
+                {i > 0 ? <Petal className="hidden w-8 sm:block" /> : null}
+                {item}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-4 text-xl">New styles every week. Every size. Always.</p>
+        </div>
+      </section>
+
+      {/* Stores */}
+      <section id="stores" className="scroll-mt-6">
+        <div className={`${wrap} py-14 sm:py-20`}>
+          <h2 className={h2}>Find your Danice</h2>
+          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {visibleStores.map((store) => (
+              <StoreCard key={store.slug} store={store} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Story */}
+      <section id="story" className="scroll-mt-6 border-t border-plum/15">
+        <div className={`${wrap} grid gap-6 py-14 sm:py-20 md:grid-cols-[auto_1fr] md:gap-14`}>
+          <p className="text-7xl leading-none font-extrabold tracking-tight text-magenta sm:text-8xl">
+            1934
+          </p>
+          <div className="max-w-[52ch]">
+            <h2 className={h2}>A New York family business.</h2>
+            <p className="mt-4 text-xl leading-relaxed">
+              Danice opened on 14th Street in 1934. Four generations later, we
+              are still a family business, still in New York, and still doing
+              the same thing.
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
