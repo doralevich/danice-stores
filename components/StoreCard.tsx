@@ -18,9 +18,12 @@ export function StoreCard({ store }: { store: Store }) {
       <p className="mt-auto flex flex-wrap gap-x-6 gap-y-1 pt-5 text-lg font-semibold">
         <a
           href={directionsUrl(store)}
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-magenta-deep underline underline-offset-4 hover:text-plum"
         >
           Get directions
+          <span className="sr-only"> (opens in a new tab)</span>
         </a>
         {store.phone ? (
           <a

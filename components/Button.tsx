@@ -10,7 +10,7 @@ export function Button({ href, children }: { href: string; children: React.React
       {children}
     </Link>
   ) : (
-    <a href={href} className={className}>
+    <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
       {children}
     </a>
   );

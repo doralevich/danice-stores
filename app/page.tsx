@@ -3,6 +3,7 @@ import { company } from "@/data/company";
 import { visibleStores } from "@/data/stores";
 import { Button } from "@/components/Button";
 import { HeroFlower } from "@/components/HeroFlower";
+import { InstagramFeed } from "@/components/InstagramFeed";
 import { Petal } from "@/components/Petal";
 import { StoreCard } from "@/components/StoreCard";
 import { StoreMap } from "@/components/StoreMap";
@@ -106,6 +107,22 @@ export default function Home() {
                 Read Our Story
               </Link>
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Instagram */}
+      <section className="border-t border-plum/15">
+        <div className={`${wrap} py-14 sm:py-20`}>
+          <h2 className={h2}>Follow us on Instagram</h2>
+          <p className="mt-3 text-xl leading-relaxed">
+            New arrivals and store news, {company.social.instagram.handle}.
+          </p>
+          <div className="mt-8">
+            <InstagramFeed
+              url={company.social.instagram.url}
+              handle={company.social.instagram.handle}
+            />
           </div>
         </div>
       </section>

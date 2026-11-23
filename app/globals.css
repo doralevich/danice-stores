@@ -46,6 +46,16 @@ body {
   }
 }
 
+/* Instagram's script replaces the blockquote with an iframe capped at 540px.
+   Let it fill the content width instead. */
+iframe.instagram-media {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 /* Store map (Leaflet). */
 .store-map {
   z-index: 0; /* keep Leaflet's layers under the page chrome */
