@@ -10,6 +10,8 @@ export const company = {
   summary:
     "Women's fashion, shoes, and accessories for every size. A New York family business since 1934.",
   url: "https://danicestores.com",
+  // Public contact address behind the footer email icon.
+  email: "bjgroup@danicestores.com",
   office: {
     street: "525 Seventh Avenue, Suite 507",
     city: "New York",
@@ -19,6 +21,7 @@ export const company = {
   social: {
     instagram: { handle: "@danicestores", url: "https://www.instagram.com/danicestores" },
     linkedin: { url: "https://www.linkedin.com/company/danice-stores-inc" },
+    facebook: { url: "https://www.facebook.com/Danicestores/" },
   },
   // Shown under "Our Team" on the Our Story page. Title and wording come from
   // public listings and must be approved by the person named before launch.

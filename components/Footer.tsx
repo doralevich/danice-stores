@@ -1,5 +1,11 @@
 import Link from "next/link";
 import { company } from "@/data/company";
+import {
+  EmailIcon,
+  FacebookIcon,
+  InstagramIcon,
+  LinkedInIcon,
+} from "./SocialIcons";
 
 export function Footer() {
   const { office, social } = company;
@@ -13,17 +19,25 @@ export function Footer() {
           <br />
           {office.city}, {office.state} {office.zip}
         </address>
-        <p className="flex flex-col gap-1 sm:items-end">
+        <div className="flex flex-col gap-3 sm:items-end">
           <Link href="/contact" className="font-semibold underline underline-offset-4 hover:text-magenta-deep">
             Contact us
           </Link>
-          <a
-            href={social.instagram.url}
-            className="font-semibold underline underline-offset-4 hover:text-magenta-deep"
-          >
-            Instagram {social.instagram.handle}
-          </a>
-        </p>
+          <ul className="flex gap-4">
+            {[
+              { href: social.instagram.url, label: "Danice on Instagram", Icon: InstagramIcon },
+              { href: social.facebook.url, label: "Danice on Facebook", Icon: FacebookIcon },
+              { href: social.linkedin.url, label: "Danice on LinkedIn", Icon: LinkedInIcon },
+              { href: `mailto:${company.email}`, label: "Email Danice", Icon: EmailIcon },
+            ].map(({ href, label, Icon }) => (
+              <li key={label}>
+                <a href={href} aria-label={label} className="block hover:text-magenta-deep">
+                  <Icon className="size-8" />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </footer>
   );
