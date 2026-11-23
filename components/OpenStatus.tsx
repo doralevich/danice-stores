@@ -15,14 +15,14 @@ const getServerMinute = () => null;
 
 export function OpenStatus({ hours }: { hours: NonNullable<Store["hours"]> }) {
   const minute = useSyncExternalStore(subscribe, getMinute, getServerMinute);
-  if (minute === null) return <p className="h-8" aria-hidden="true" />;
+  if (minute === null) return <p className="h-7" aria-hidden="true" />;
 
   const status = getOpenStatus(hours, new Date(minute * 60_000));
   if (!status) return null;
 
   return status.open ? (
-    <p className="inline-block bg-petal px-2.5 py-1 font-semibold">{status.label}</p>
+    <p className="flex items-center gap-2 text-lg font-semibold"><span className="size-2.5 rounded-full bg-magenta" aria-hidden="true" />{status.label}</p>
   ) : (
-    <p className="py-1 font-semibold">{status.label}</p>
+    <p className="text-lg text-plum/80">{status.label}</p>
   );
 }

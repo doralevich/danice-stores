@@ -1,36 +1,17 @@
 import Link from "next/link";
 
-// Solid rectangles, square corners, plain labels. Label is 24px bold because
-// white on magenta only meets contrast at large sizes.
-const base =
-  "inline-block px-7 py-3.5 text-2xl leading-tight font-bold focus-visible:outline-4 focus-visible:outline-offset-4";
-const variants = {
-  magenta:
-    "bg-magenta text-white hover:bg-plum focus-visible:outline-plum",
-  white:
-    "bg-white text-magenta hover:bg-plum hover:text-white focus-visible:outline-white",
-};
+// 20px bold keeps white on magenta within large-text contrast.
+const className =
+  "inline-block bg-magenta px-6 py-3 text-xl font-bold text-white hover:bg-magenta-deep focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-plum";
 
-export function Button({
-  href,
-  variant = "magenta",
-  children,
-}: {
-  href: string;
-  variant?: keyof typeof variants;
-  children: React.ReactNode;
-}) {
-  const className = `${base} ${variants[variant]}`;
-  if (href.startsWith("http") || href.startsWith("tel:")) {
-    return (
-      <a href={href} className={className}>
-        {children}
-      </a>
-    );
-  }
-  return (
+export function Button({ href, children }: { href: string; children: React.ReactNode }) {
+  return href.startsWith("/") ? (
     <Link href={href} className={className}>
       {children}
     </Link>
+  ) : (
+    <a href={href} className={className}>
+      {children}
+    </a>
   );
 }
