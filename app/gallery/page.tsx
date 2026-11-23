@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { company } from "@/data/company";
 import { galleryPhotos } from "@/data/gallery";
+import { InstagramFeed } from "@/components/InstagramFeed";
 
 export const metadata: Metadata = {
   title: "Photo Gallery",
@@ -32,6 +34,19 @@ export default function Gallery() {
           </li>
         ))}
       </ul>
+
+      <h2 className="mt-16 text-3xl font-extrabold sm:text-4xl">
+        Follow us on Instagram
+      </h2>
+      <p className="mt-3 text-xl leading-relaxed">
+        New arrivals and store news, {company.social.instagram.handle}.
+      </p>
+      <div className="mt-8">
+        <InstagramFeed
+          url={company.social.instagram.url}
+          handle={company.social.instagram.handle}
+        />
+      </div>
     </section>
   );
 }
