@@ -9,7 +9,7 @@ export function Petal({ className }: { className?: string }) {
           key={angle}
           d="M0 6 C -22 -8 -20 -32 0 -48 C 20 -32 22 -8 0 6 Z"
           transform={`rotate(${angle})`}
-          fill="#ec008c"
+          fill="#ed008c"
           fillOpacity="0.42"
         />
       ))}
