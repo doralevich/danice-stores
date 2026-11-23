@@ -2,6 +2,7 @@ import Link from "next/link";
 import { company } from "@/data/company";
 import { visibleStores } from "@/data/stores";
 import { Button } from "@/components/Button";
+import { HeroFlower } from "@/components/HeroFlower";
 import { Petal } from "@/components/Petal";
 import { StoreCard } from "@/components/StoreCard";
 
@@ -42,18 +43,16 @@ export default function Home() {
               New York family business since 1934.
             </p>
             <p className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
-              <Button href="/#stores">Find a store</Button>
+              <Button href="/stores">Find a store</Button>
               <Link
-                href="/#story"
+                href="/our-story"
                 className="text-lg font-semibold underline underline-offset-4 hover:text-magenta-deep"
               >
-                Our story
+                Our Story
               </Link>
             </p>
           </div>
-          <div className="relative mx-auto aspect-square w-full max-w-xs rounded-full bg-blush md:max-w-none">
-            <Petal className="absolute inset-[9%]" />
-          </div>
+          <HeroFlower />
         </div>
       </section>
 
@@ -74,7 +73,7 @@ export default function Home() {
       </section>
 
       {/* Stores */}
-      <section id="stores" className="scroll-mt-6">
+      <section>
         <div className={`${wrap} py-14 sm:py-20`}>
           <h2 className={h2}>Find your Danice</h2>
           <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -86,7 +85,7 @@ export default function Home() {
       </section>
 
       {/* Story */}
-      <section id="story" className="scroll-mt-6 border-t border-plum/15">
+      <section className="border-t border-plum/15">
         <div className={`${wrap} grid gap-6 py-14 sm:py-20 md:grid-cols-[auto_1fr] md:gap-14`}>
           <p className="text-7xl leading-none font-extrabold tracking-tight text-magenta sm:text-8xl">
             1934
@@ -97,6 +96,11 @@ export default function Home() {
               Danice opened on 14th Street in 1934. Four generations later, we
               are still a family business, still in New York, and still doing
               the same thing.
+            </p>
+            <p className="mt-5 text-lg font-semibold">
+              <Link href="/our-story" className="underline underline-offset-4 hover:text-magenta-deep">
+                Read Our Story
+              </Link>
             </p>
           </div>
         </div>

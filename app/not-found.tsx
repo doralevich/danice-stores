@@ -9,7 +9,7 @@ export default function NotFound() {
         nearest Danice.
       </p>
       <p className="mt-8">
-        <Button href="/#stores">Find a store</Button>
+        <Button href="/stores">Find a store</Button>
       </p>
     </section>
   );
