@@ -26,7 +26,7 @@ export const company = {
     {
       name: "BJ Sara",
       title: "Chief Operating Officer",
-      photo: "/team/bj-sara.jpg",
+      photo: "/team/bj-sara.webp",
       quote: {
         text: "The technology isn\u2019t the win. The win is what happens with the time we get back: more selling, better customer experiences, more training, more coaching, and better merchandising.",
         source: "Retail Innovation & Transformation Assembly, The Millennium Alliance",

@@ -84,13 +84,14 @@ export default function OurStory() {
               key={person.name}
               className="grid items-start gap-8 md:grid-cols-2 md:gap-14"
             >
-              <div className="flex gap-5">
+              <div className="flex flex-col gap-5 sm:flex-row sm:gap-6">
                 <Image
                   src={person.photo}
                   alt={person.name}
-                  width={200}
-                  height={200}
-                  className="size-32 shrink-0 object-cover sm:size-44"
+                  width={800}
+                  height={800}
+                  className="size-48 shrink-0 object-cover sm:size-56"
+                  sizes="224px"
                 />
                 <div>
                   <h3 className="text-2xl leading-tight font-bold">
