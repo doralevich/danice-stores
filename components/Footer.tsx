@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { company } from "@/data/company";
 
 export function Footer() {
@@ -12,7 +13,10 @@ export function Footer() {
           <br />
           {office.city}, {office.state} {office.zip}
         </address>
-        <p>
+        <p className="flex flex-col gap-1 sm:items-end">
+          <Link href="/contact" className="font-semibold underline underline-offset-4 hover:text-magenta-deep">
+            Contact us
+          </Link>
           <a
             href={social.instagram.url}
             className="font-semibold underline underline-offset-4 hover:text-magenta-deep"
