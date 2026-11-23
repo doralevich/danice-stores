@@ -82,37 +82,33 @@ export default function OurStory() {
           {company.team.map((person) => (
             <li
               key={person.name}
-              className="grid items-start gap-8 md:grid-cols-2 md:gap-14"
+              className="flex flex-col gap-6 sm:flex-row sm:gap-8"
             >
-              <div className="flex flex-col gap-5 sm:flex-row sm:gap-6">
-                <Image
-                  src={person.photo}
-                  alt={person.name}
-                  width={800}
-                  height={800}
-                  className="size-48 shrink-0 object-cover sm:size-56"
-                  sizes="224px"
-                />
-                <div>
-                  <h3 className="text-2xl leading-tight font-bold">
-                    {person.name}
-                  </h3>
-                  <p className="mt-1 text-lg font-semibold text-magenta-deep">
-                    {person.title}
-                  </p>
-                  <p className="mt-3 max-w-[48ch] text-lg leading-relaxed">
-                    {person.bio}
-                  </p>
-                </div>
+              <Image
+                src={person.photo}
+                alt={person.name}
+                width={800}
+                height={800}
+                className="size-48 shrink-0 rounded-[10px] object-cover sm:size-56"
+                sizes="224px"
+              />
+              <div className="max-w-[62ch]">
+                <h3 className="text-2xl leading-tight font-bold">
+                  {person.name}
+                </h3>
+                <p className="mt-1 text-lg font-semibold text-magenta-deep">
+                  {person.title}
+                </p>
+                <p className="mt-3 text-lg leading-relaxed">{person.bio}</p>
+                <figure className="mt-6 border-l-4 border-magenta bg-blush p-6">
+                  <blockquote className="text-xl leading-snug font-semibold sm:text-2xl sm:leading-snug">
+                    &ldquo;{person.quote.text}&rdquo;
+                  </blockquote>
+                  <figcaption className="mt-3 text-base leading-relaxed">
+                    {person.name}, {person.quote.source}
+                  </figcaption>
+                </figure>
               </div>
-              <figure className="border-l-4 border-magenta bg-blush p-6 sm:p-8">
-                <blockquote className="text-2xl leading-snug font-semibold">
-                  &ldquo;{person.quote.text}&rdquo;
-                </blockquote>
-                <figcaption className="mt-4 text-base leading-relaxed">
-                  {person.name}, {person.quote.source}
-                </figcaption>
-              </figure>
             </li>
           ))}
         </ul>
