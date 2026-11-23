@@ -34,9 +34,6 @@ export function StoreCard({ store }: { store: Store }) {
           </a>
         ) : null}
       </p>
-      {store.verified ? null : (
-        <p className="mt-4 text-sm text-plum/70">Sample for layout. Hidden on the live site.</p>
-      )}
     </article>
   );
 }

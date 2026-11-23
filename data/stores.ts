@@ -1,9 +1,10 @@
 // Store list. See docs/brief.md, section 5.
 //
-// Only stores with `verified: true` are ever shown on the production site.
-// Unverified entries are samples so the layout can be reviewed; they appear on
-// local and preview builds only, flagged as samples. Replace them with the
-// client's list when it arrives.
+// Every store listed here is shown on the site, at the site owner's request.
+// `verified: false` marks entries taken from old public listings that the
+// client has not yet confirmed are open. They carry no hours or phone, since
+// those were never confirmed. Replace them with the client's list when it
+// arrives.
 
 export type Day = "Mon" | "Tue" | "Wed" | "Thu" | "Fri" | "Sat" | "Sun";
 
@@ -25,16 +26,6 @@ export type Store = {
   photo?: string;
 };
 
-const sampleHours: Store["hours"] = [
-  { day: "Mon", open: "10:00", close: "19:00" },
-  { day: "Tue", open: "10:00", close: "19:00" },
-  { day: "Wed", open: "10:00", close: "19:00" },
-  { day: "Thu", open: "10:00", close: "19:00" },
-  { day: "Fri", open: "10:00", close: "20:00" },
-  { day: "Sat", open: "10:00", close: "20:00" },
-  { day: "Sun", open: "11:00", close: "18:00" },
-];
-
 export const stores: Store[] = [
   {
     slug: "harlem-125th-st",
@@ -52,7 +43,7 @@ export const stores: Store[] = [
     lng: -73.9521,
     verified: true,
   },
-  // Samples below: addresses come from old listings, hours are made up.
+  // Below: addresses from old public listings, not yet confirmed by the client.
   {
     slug: "jamaica-ave",
     name: "Danice Jamaica",
@@ -63,7 +54,6 @@ export const stores: Store[] = [
     state: "NY",
     zip: "11432",
     region: "Queens",
-    hours: sampleHours,
     lat: 40.7046,
     lng: -73.7969,
     verified: false,
@@ -78,7 +68,6 @@ export const stores: Store[] = [
     state: "NY",
     zip: "11201",
     region: "Brooklyn",
-    hours: sampleHours,
     lat: 40.6904,
     lng: -73.9843,
     verified: false,
@@ -93,7 +82,6 @@ export const stores: Store[] = [
     state: "NY",
     zip: "10455",
     region: "Bronx",
-    hours: sampleHours,
     lat: 40.8163,
     lng: -73.9179,
     verified: false,
@@ -108,7 +96,6 @@ export const stores: Store[] = [
     state: "NY",
     zip: "10468",
     region: "Bronx",
-    hours: sampleHours,
     lat: 40.8625,
     lng: -73.8985,
     verified: false,
@@ -123,18 +110,13 @@ export const stores: Store[] = [
     state: "NJ",
     zip: "07102",
     region: "New Jersey",
-    hours: sampleHours,
     lat: 40.7368,
     lng: -74.1716,
     verified: false,
   },
 ];
 
-// Production shows verified stores only. Local and preview builds also show
-// the samples so the design can be reviewed before the real list arrives.
-const showSamples = process.env.VERCEL_ENV !== "production";
-
-export const visibleStores = stores.filter((s) => s.verified || showSamples);
+export const visibleStores = stores;
 
 export function directionsUrl(store: Store) {
   const destination = `${store.street}, ${store.city}, ${store.state} ${store.zip}`;
