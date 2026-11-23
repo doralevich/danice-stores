@@ -4,11 +4,13 @@ import { Button } from "@/components/Button";
 export const metadata: Metadata = {
   title: "Our Story",
   description:
-    "Danice opened on 14th Street in Manhattan in 1934. Four generations later it is still a family owned New York business.",
+    "Danice opened on 14th Street in New York City in 1934. More than 90 years and four generations later, it is still family owned, with the same vision: high fashion at affordable prices.",
 };
 
-// Copy uses facts the brief marks CONFIRMED. Still to verify with the client
-// before adding: the founder's name, the regions served today, and milestones.
+// Copy is drawn from the company's own LinkedIn "About" text and the facts the
+// brief marks CONFIRMED. Left out until the client confirms current figures:
+// the store count ("over 50"), the states listed, and the team size ("650+").
+// Also still to verify: the founder's name and further milestones.
 const timeline = [
   {
     year: "1934",
@@ -16,7 +18,7 @@ const timeline = [
   },
   {
     year: "Today",
-    text: "Four generations later, Danice is still family owned and operated.",
+    text: "More than 90 years and four generations later, Danice is still family owned and operated.",
   },
 ];
 
@@ -30,19 +32,26 @@ export default function OurStory() {
         </h1>
         <div className="mt-8 max-w-[60ch] space-y-5 text-xl leading-relaxed">
           <p>
-            Danice opened its doors in 1934 on 14th Street in Manhattan. It
-            started the way a lot of New York stories start: with a family, a
-            storefront, and a lot of work.
+            Danice opened its doors in 1934 on 14th Street in New York City.
+            More than 90 years and the best customers in the business later,
+            we are still here, and still growing, with the same vision: high
+            fashion at affordable prices.
           </p>
           <p>
-            Four generations later, Danice is still family owned and operated.
-            We have grown from that one store into a group of neighborhood
-            shops.
+            For nine decades and counting, trend-savvy shoppers have known
+            Danice as the place for today&rsquo;s hottest styles at the best
+            possible prices. We work to stay ahead, and we never compromise on
+            style.
           </p>
           <p>
-            What we do has not changed. We bring in the styles women want right
-            now and price them so you can actually buy them. Every size is
-            welcome here, and always has been.
+            Danice is family owned and operated, now in its fourth generation.
+            Along the way we have turned the off-price store into something
+            closer to a fashion boutique, where every size is welcome and
+            always has been.
+          </p>
+          <p>
+            We are proud of that history, and we are looking forward to what
+            comes next.
           </p>
         </div>
       </section>
@@ -65,6 +74,9 @@ export default function OurStory() {
 
       <section className="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-20">
         <p className="max-w-[22ch] text-3xl leading-tight font-extrabold sm:text-4xl">
+          Where fashion meets finance.
+        </p>
+        <p className="mt-4 max-w-[40ch] text-xl leading-relaxed">
           Affordable fashion for women of any size.
         </p>
         <p className="mt-8">
