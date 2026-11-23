@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Palette comes from the Danice logo. See docs/brief.md, "Design direction".
+   No other hues. Plum ink replaces black for text. */
+@theme inline {
+  --color-magenta: #ec008c;
+  --color-blush: #f9e4f5;
+  --color-plum: #3b0a2a;
+  --color-petal: #f57ec0;
+  --font-sans: var(--font-archivo), "Arial", sans-serif;
+}
+
+body {
+  background: var(--color-blush);
+  color: var(--color-plum);
+}
+
+/* Display type: Archivo at maximum width, echoing the wide heavy wordmark. */
+.font-display {
+  font-stretch: 125%;
+  font-weight: 900;
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+}
