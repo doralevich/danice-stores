@@ -15,3 +15,33 @@ body {
   background: #fff;
   color: var(--color-plum);
 }
+
+/* Banner flower: 3D tilt toward the pointer plus a slow sway. */
+.hero-flower {
+  perspective: 900px;
+}
+.hero-flower-tilt {
+  transform-style: preserve-3d;
+  transform: rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg));
+  transition: transform 0.25s ease-out;
+}
+.hero-flower-sway {
+  transform-style: preserve-3d;
+  animation: hero-sway 9s ease-in-out infinite alternate;
+}
+@keyframes hero-sway {
+  from {
+    transform: rotateZ(-5deg) rotateY(-7deg);
+  }
+  to {
+    transform: rotateZ(5deg) rotateY(7deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-flower-sway {
+    animation: none;
+  }
+  .hero-flower-tilt {
+    transition: none;
+  }
+}

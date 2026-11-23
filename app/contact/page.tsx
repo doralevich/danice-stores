@@ -34,7 +34,7 @@ export default function Contact() {
         <p className="mt-10 border-l-4 border-magenta bg-blush p-5 text-lg leading-relaxed">
           Question about a specific store? Call the store directly.{" "}
           <Link
-            href="/#stores"
+            href="/stores"
             className="font-semibold underline underline-offset-4 hover:text-magenta-deep"
           >
             Find your store
