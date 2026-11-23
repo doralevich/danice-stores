@@ -100,7 +100,7 @@ export default function OurStory() {
                   {person.title}
                 </p>
                 <p className="mt-3 text-lg leading-relaxed">{person.bio}</p>
-                <figure className="mt-6 border-l-4 border-magenta bg-blush p-6">
+                <figure className="mt-6 rounded-[10px] border-l-4 border-magenta bg-blush p-6">
                   <blockquote className="text-xl leading-snug font-semibold sm:text-2xl sm:leading-snug">
                     &ldquo;{person.quote.text}&rdquo;
                   </blockquote>

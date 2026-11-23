@@ -31,7 +31,7 @@ export default function Contact() {
           {office.city}, {office.state} {office.zip}
         </address>
 
-        <p className="mt-10 border-l-4 border-magenta bg-blush p-5 text-lg leading-relaxed">
+        <p className="mt-10 rounded-[10px] border-l-4 border-magenta bg-blush p-5 text-lg leading-relaxed">
           Question about a specific store? Call the store directly.{" "}
           <Link
             href="/stores"

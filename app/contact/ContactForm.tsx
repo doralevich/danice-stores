@@ -12,7 +12,7 @@ const initialState: ContactState = {
 };
 
 const field =
-  "mt-1.5 block w-full border border-plum/40 bg-white px-3.5 py-2.5 text-lg text-plum focus:border-magenta focus:outline-2 focus:outline-offset-0 focus:outline-magenta aria-invalid:border-magenta-deep";
+  "mt-1.5 block w-full rounded-[10px] border border-plum/40 bg-white px-3.5 py-2.5 text-lg text-plum focus:border-magenta focus:outline-2 focus:outline-offset-0 focus:outline-magenta aria-invalid:border-magenta-deep";
 const label = "block text-lg font-semibold";
 
 function FieldError({ id, text }: { id: string; text?: string }) {
@@ -28,7 +28,7 @@ export function ContactForm() {
 
   if (state.status === "sent") {
     return (
-      <div role="status" className="border-l-4 border-magenta bg-blush p-6">
+      <div role="status" className="rounded-[10px] border-l-4 border-magenta bg-blush p-6">
         <h2 className="text-2xl font-bold">Thank you. Your message is on its way.</h2>
         <p className="mt-2 text-lg">We will reply to the email address you gave us.</p>
       </div>
@@ -39,7 +39,7 @@ export function ContactForm() {
   return (
     <form action={formAction} noValidate className="grid gap-5">
       {state.status === "error" ? (
-        <p role="alert" className="border-l-4 border-magenta-deep bg-blush p-4 text-lg font-semibold">
+        <p role="alert" className="rounded-[10px] border-l-4 border-magenta-deep bg-blush p-4 text-lg font-semibold">
           {state.message}
         </p>
       ) : null}
