@@ -27,7 +27,7 @@ export default function Gallery() {
               width={photo.width}
               height={photo.height}
               sizes="(min-width: 1024px) 260px, (min-width: 640px) 30vw, 45vw"
-              className="h-auto w-full"
+              className="h-auto w-full rounded-[10px]"
             />
           </li>
         ))}
