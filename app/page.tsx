@@ -2,6 +2,7 @@ import Link from "next/link";
 import { company } from "@/data/company";
 import { visibleStores } from "@/data/stores";
 import { Button } from "@/components/Button";
+import { GoogleStoreMap } from "@/components/GoogleStoreMap";
 import { HeroFlower } from "@/components/HeroFlower";
 import { InstagramFeed } from "@/components/InstagramFeed";
 import { Petal } from "@/components/Petal";
@@ -17,6 +18,10 @@ const organization = {
   foundingDate: String(company.founded),
   sameAs: [company.social.instagram.url, company.social.linkedin.url],
 };
+
+// A Google map is used once NEXT_PUBLIC_GOOGLE_MAPS_API_KEY is set in Vercel.
+// Until then the OpenStreetMap version shows, so the page always has a map.
+const googleMapsKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
 
 const carry = ["Clothing", "Plus size", "Shoes", "Accessories"];
 
@@ -78,7 +83,11 @@ export default function Home() {
         <div className={`${wrap} py-14 sm:py-20`}>
           <h2 className={h2}>Find your Danice</h2>
           <div className="mt-8">
-            <StoreMap stores={visibleStores} />
+            {googleMapsKey ? (
+              <GoogleStoreMap stores={visibleStores} apiKey={googleMapsKey} />
+            ) : (
+              <StoreMap stores={visibleStores} />
+            )}
           </div>
           <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {visibleStores.map((store) => (
