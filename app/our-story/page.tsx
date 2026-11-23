@@ -35,8 +35,8 @@ export default function OurStory() {
         <div className="mt-8 max-w-[60ch] space-y-5 text-xl leading-relaxed">
           <p>
             Danice opened its doors in 1934 on 14th Street in New York City.
-            More than 90 years and the best customers in the business later,
-            we are still here, and still growing, with the same vision: high
+            More than 90 years and the best customers in the business later, we
+            are still here, and still growing, with the same vision: high
             fashion at affordable prices.
           </p>
           <p>
@@ -48,8 +48,8 @@ export default function OurStory() {
           <p>
             Danice is family owned and operated, now in its fourth generation.
             Along the way we have turned the off-price store into something
-            closer to a fashion boutique, where every size is welcome and
-            always has been.
+            closer to a fashion boutique, where every size is welcome and always
+            has been.
           </p>
           <p>
             We are proud of that history, and we are looking forward to what
@@ -67,7 +67,9 @@ export default function OurStory() {
                 <dt className="text-5xl leading-none font-extrabold tracking-tight text-magenta sm:text-6xl">
                   {item.year}
                 </dt>
-                <dd className="mt-3 max-w-[36ch] text-xl leading-relaxed">{item.text}</dd>
+                <dd className="mt-3 max-w-[36ch] text-xl leading-relaxed">
+                  {item.text}
+                </dd>
               </div>
             ))}
           </dl>
@@ -76,21 +78,40 @@ export default function OurStory() {
 
       <section className="mx-auto max-w-6xl px-5 pt-14 sm:px-8 sm:pt-20">
         <h2 className="text-3xl font-extrabold sm:text-4xl">Our Team</h2>
-        <ul className="mt-8 grid gap-8 md:grid-cols-2">
+        <ul className="mt-8 grid gap-10">
           {company.team.map((person) => (
-            <li key={person.name} className="flex gap-5">
-              <Image
-                src={person.photo}
-                alt={person.name}
-                width={112}
-                height={112}
-                className="size-24 shrink-0 object-cover sm:size-28"
-              />
-              <div>
-                <h3 className="text-2xl leading-tight font-bold">{person.name}</h3>
-                <p className="mt-1 text-lg font-semibold text-magenta-deep">{person.title}</p>
-                <p className="mt-3 max-w-[48ch] text-lg leading-relaxed">{person.bio}</p>
+            <li
+              key={person.name}
+              className="grid items-start gap-8 md:grid-cols-2 md:gap-14"
+            >
+              <div className="flex gap-5">
+                <Image
+                  src={person.photo}
+                  alt={person.name}
+                  width={112}
+                  height={112}
+                  className="size-24 shrink-0 object-cover sm:size-28"
+                />
+                <div>
+                  <h3 className="text-2xl leading-tight font-bold">
+                    {person.name}
+                  </h3>
+                  <p className="mt-1 text-lg font-semibold text-magenta-deep">
+                    {person.title}
+                  </p>
+                  <p className="mt-3 max-w-[48ch] text-lg leading-relaxed">
+                    {person.bio}
+                  </p>
+                </div>
               </div>
+              <figure className="border-l-4 border-magenta bg-blush p-6 sm:p-8">
+                <blockquote className="text-2xl leading-snug font-semibold">
+                  &ldquo;{person.quote.text}&rdquo;
+                </blockquote>
+                <figcaption className="mt-4 text-base leading-relaxed">
+                  {person.name}, {person.quote.source}
+                </figcaption>
+              </figure>
             </li>
           ))}
         </ul>

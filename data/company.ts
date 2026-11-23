@@ -27,6 +27,10 @@ export const company = {
       name: "BJ Sara",
       title: "Chief Operating Officer",
       photo: "/team/bj-sara.jpg",
+      quote: {
+        text: "The technology isn\u2019t the win. The win is what happens with the time we get back: more selling, better customer experiences, more training, more coaching, and better merchandising.",
+        source: "Retail Innovation & Transformation Assembly, The Millennium Alliance",
+      },
       bio: "BJ leads retail operations at Danice, looking after the stores and the teams who run them. His focus is the same as the company\u2019s: keeping great style within reach in every neighborhood we serve.",
     },
   ],
