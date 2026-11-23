@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { formatPostDate, sortedPosts } from "@/data/blog";
+import Link from "next/link";
+import { excerpt, formatPostDate, sortedPosts } from "@/data/blog";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "News and notes from the team at Danice Stores.",
+  description: "Notes on retail and running stores from the team at Danice Stores.",
   // Keep an empty blog out of search results until there are posts.
   robots: sortedPosts.length === 0 ? { index: false } : undefined,
 };
@@ -15,7 +16,7 @@ export default function Blog() {
         Blog
       </h1>
       <p className="mt-5 text-xl leading-relaxed">
-        News and notes from the team at Danice.
+        Notes on retail and running stores from the team at Danice.
       </p>
 
       {sortedPosts.length === 0 ? (
@@ -23,37 +24,35 @@ export default function Blog() {
           Our first posts are on the way.
         </p>
       ) : (
-        <div className="mt-12 divide-y divide-plum/15 border-t border-plum/15">
+        <ul className="mt-12 divide-y divide-plum/15 border-t border-plum/15">
           {sortedPosts.map((post) => (
-            <article key={post.slug} id={post.slug} className="scroll-mt-6 py-10">
-              <p className="text-lg font-semibold text-magenta-deep">
-                <time dateTime={post.date}>{formatPostDate(post.date)}</time>
-              </p>
-              <h2 className="mt-2 text-3xl leading-tight font-extrabold sm:text-4xl">
-                {post.title}
-              </h2>
-              <p className="mt-2 text-lg">By {post.author}</p>
-              <div className="mt-5 space-y-4 text-xl leading-relaxed">
-                {post.body.map((paragraph, i) => (
-                  <p key={i}>{paragraph}</p>
-                ))}
-              </div>
-              {post.sourceUrl ? (
-                <p className="mt-5 text-lg font-semibold">
-                  <a
-                    href={post.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
+            <li key={post.slug} className="py-9">
+              <article>
+                <p className="text-lg font-semibold text-magenta-deep">
+                  <time dateTime={post.date}>{formatPostDate(post.date)}</time>
+                  <span className="text-plum"> · {post.author}</span>
+                </p>
+                <h2 className="mt-2 text-2xl leading-tight font-extrabold sm:text-3xl">
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="hover:text-magenta-deep hover:underline hover:underline-offset-4"
+                  >
+                    {post.title}
+                  </Link>
+                </h2>
+                <p className="mt-3 text-xl leading-relaxed">{excerpt(post)}</p>
+                <p className="mt-4 text-lg font-semibold">
+                  <Link
+                    href={`/blog/${post.slug}`}
                     className="underline underline-offset-4 hover:text-magenta-deep"
                   >
-                    Read the original post
-                    <span className="sr-only"> (opens in a new tab)</span>
-                  </a>
+                    Read more<span className="sr-only">: {post.title}</span>
+                  </Link>
                 </p>
-              ) : null}
-            </article>
+              </article>
+            </li>
           ))}
-        </div>
+        </ul>
       )}
     </section>
   );

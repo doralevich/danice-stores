@@ -1,0 +1,554 @@
+# BJ Sara: LinkedIn Posts
+
+Source: https://www.linkedin.com/in/bjsara
+
+Posts are listed newest first. Dates are the original LinkedIn publish dates.
+
+---
+
+## The higher you climb in retail leadership, the easier it becomes to lose sight of the sales floor.
+
+**Date:** October 18, 2026
+
+And that can be a costly mistake.
+
+As executives, our responsibilities evolve. We focus on strategy, P&L, growth, corporate governance and long-term planning. That’s where our attention belongs.
+
+But how can we make the best decisions in the boardroom if we’ve lost touch with the realities of the store?
+
+I recently spent a day alongside one of our store managers.
+
+I wasn’t there for an audit, a walk-through or a KPI presentation.
+
+I was there to work, observe, listen and participate.
+
+We accepted deliveries, processed purchase orders, merchandised new assortments and handled the daily responsibilities of running a store.
+
+And, of course, retail being retail, the day had its surprises.
+
+Several deliveries. Staff callouts and late arrivals. A register going down. Restrooms becoming unusable, requiring an urgent call to Facilities.
+
+All while the manager had to maintain standards, direct the team, manage inventory, protect assets and deliver a best-in-class customer experience.
+
+Just another average day in retail!
+
+Managing a retail store is like running a three-ring circus. Everything happens simultaneously, everyone needs something, and the show must go on.
+
+Great store managers need more than hard work. They need intelligence, judgment, adaptability and exceptional prioritization skills.
+
+Sometimes, we underestimate how much we ask of them.
+
+I’m not suggesting COOs, VPs or other executives should routinely unload trucks, operate registers or manage the front end. That’s not the best use of executive time.
+
+But occasionally witnessing and participating in these tasks reveals inefficiencies that spreadsheets, conference calls and dashboards may never capture.
+
+A procedure that looks reasonable at headquarters may create unnecessary work in the store.
+
+An initiative that takes five minutes to explain at HQ may take hours to execute.
+
+And one more corporate request may prevent a manager from serving customers or developing associates.
+
+I left with three things:
+
+1. Renewed appreciation for the complexity of store management.
+2. Opportunities to improve our systems, procedures and workflows.
+3. A stronger commitment to making corporate strategies easier for stores to understand and execute.
+
+That third point matters most.
+
+My job as an executive isn’t to make the store manager’s job harder. It’s to remove obstacles so they can do it better.
+
+We must lead from the boardroom. But every so often, we need to get our hands dirty on the sales floor.
+
+The best retail strategies aren’t just developed at headquarters. They’re informed by what actually happens in our stores.
+
+**Original post:** https://www.linkedin.com/posts/bjsara_the-higher-you-climb-in-retail-leadership-activity-7517639214725877760-Fqbu
+
+---
+
+## Growth is exciting in retail.
+
+**Date:** October 2, 2026
+
+New stores. New markets. New customers. Bigger revenue. But there is a question that needs to be asked before signing the next lease:
+
+Can your operating model actually support the growth?
+
+Opening another store isn’t just about finding a location, negotiating a lease, building it out and filling it with inventory.
+You have to build the organization around it.
+Start with people. Who is going to run the store? If you’re promoting internally, you may be taking one of your strongest people out of an existing location. Now you haven’t filled one position. You’ve created another opening.
+If you’re moving veteran managers into the new store to establish culture and standards, who replaces them?
+If you’re hiring externally, how much time do you really have to recruit, onboard and train an entirely new team before opening day?
+Growth can quietly weaken the stores that made the expansion possible in the first place.
+Then comes infrastructure.
+One additional store means more inventory, deliveries, payroll, scheduling, HR issues, IT support, maintenance, AP exposure, training, reporting and management oversight. Multiply that by five or ten openings and suddenly the infrastructure that worked perfectly at 25 stores is struggling at 35.
+Management bandwidth matters too.
+A District Manager who effectively supervised 8 stores may now have 11.
+Same person. Same number of hours in the week. But more visits, more hiring issues, more performance management, more emergencies and less time actually developing people and driving the business.
+And opening in a new region adds another level of complexity. Your support network gets thinner.
+The Regional or District Manager may no longer be 30 minutes away. Your experienced managers aren’t right down the road. HR, LP, maintenance and operations may all be supporting the location from a distance.
+A callout that is manageable when you have three nearby stores becomes a much bigger problem when the closest store is two hours away.
+A Store Manager resignation becomes more disruptive. A maintenance problem becomes harder to solve. A weak opening team becomes harder to stabilize. And cultural consistency becomes much more difficult when leadership can’t physically get there as often.
+That’s why expansion shouldn’t only have a real estate plan and a financial plan. It needs a people plan, leadership plan and infrastructure plan.
+Before opening the next 10 stores, I would ask:
+Can HR support them? Can distribution support them? Can our field leadership support them? Do we have enough experienced managers to seed the new locations without weakening the existing ones?
+Retail growth isn’t measured by how many stores you can open.
+It’s measured by how many stores you can open without compromising the ones you already have.
+Sometimes the smartest growth decision is opening five great stores instead of ten average ones.
+Scale should strengthen the organization, not stretch it until it breaks.
+
+**Original post:** https://www.linkedin.com/posts/bjsara_growth-is-exciting-in-retail-new-stores-activity-7511806354861338624-v8qD
+
+---
+
+## The Economics of a Store
+
+**Date:** September 11, 2026
+
+A store does $5 million in annual sales.
+
+Is it profitable?
+
+Most people outside of retail would probably say, “Of course.”
+
+Anyone who has owned a P&L knows the answer is:
+
+I have absolutely no idea yet.
+
+Let’s break down the economics of ONE fictional retail store.
+
+For simplicity, assume:
+
+ANNUAL NET SALES: $5,000,000
+
+First comes merchandise.
+
+Cost of goods sold: $2,250,000
+
+That leaves:
+
+GROSS PROFIT: $2,750,000
+GROSS MARGIN: 55%
+
+Looks pretty good.
+
+But we are nowhere near finished.
+
+Now the store has to operate.
+
+Labor: $700,000
+Payroll taxes & benefits: $200,000
+Rent/CAM/real estate costs: $450,000
+Utilities: $75,000
+Insurance: $25,000
+Store supplies: $35,000
+Local marketing: $75,000
+Repairs & maintenance: $75,000
+Technology/POS/communications: $50,000
+Asset protection/security: $35,000
+Credit card/merchant fees: $100,000
+Shrink/inventory loss: $80,000
+Freight/transfers/logistics: $60,000
+Cleaning/waste removal: $40,000
+Licenses/misc. operating expenses: $20,000
+
+STORE OPERATING EXPENSES: $2,020,000
+
+That $2.75 million gross profit is now:
+
+$730,000.
+
+A 14.6% four-wall contribution.
+
+Pretty profitable, right?
+
+Maybe.
+
+Now ask what has NOT been charged to the store.
+
+Regional and corporate management.
+HR.
+Finance.
+Buying.
+Planning.
+Marketing infrastructure.
+IT.
+Distribution.
+Legal.
+Corporate insurance.
+Office expenses.
+Depreciation on the store buildout and equipment.
+Other shared overhead.
+
+If we allocate, for illustration:
+
+Corporate/shared overhead: $400,000
+Depreciation: $100,000
+
+That $730,000 becomes:
+
+$230,000.
+
+On $5 MILLION in sales.
+
+4.6%.
+
+And depending on how the company structures its P&L, there may still be interest, taxes or other expenses below that line.
+
+This is why I cringe when someone says:
+
+“That store does $5 million. It must be killing it.”
+
+Sales are not profit.
+
+Gross margin is not profit.
+
+And even four-wall contribution is not necessarily the final answer.
+
+A few points of margin.
+A bad lease.
+Too much payroll.
+Excessive markdowns.
+Higher shrink.
+A major HVAC replacement.
+Rising insurance.
+Credit-card fees.
+Poor inventory turns.
+
+Any one of them can dramatically change the economics.
+
+This is also why closing a “high-volume” store can sometimes be the right financial decision, while keeping a lower-volume store open can make perfect sense.
+
+Revenue gets the headlines.
+
+But the P&L tells the story.
+
+Retail operators: What expense line do you think people outside our industry underestimate the most?
+
+**Original post:** https://www.linkedin.com/posts/bjsara_the-economics-of-a-store-a-store-does-5-activity-7504204983827877888-Mje5
+
+---
+
+## The Store Manager job has changed.
+
+**Date:** September 10, 2026
+
+I’m not sure the job description has.
+
+Twenty-five years ago, a Store Manager was expected to run the store.
+
+Drive sales.
+Develop people.
+Manage payroll.
+Control inventory.
+Maintain standards.
+Take care of the customer.
+
+Those responsibilities haven’t disappeared.
+
+We just kept adding to them.
+
+Today, the Store Manager may also be responsible for BOPIS, online returns, fulfillment, endless reporting, HR administration, compliance, loss prevention, facilities issues, technology problems, customer surveys, scheduling systems, corporate communications, task-management platforms and executing initiatives coming from multiple departments at HQ.
+
+And then we tell them:
+
+“Spend more time on the sales floor.”
+
+When?
+
+This is where I believe retailers need to think strategically about the next evolution of the Store Manager.
+
+The question shouldn’t be:
+
+How much more can we get the Store Manager to do?
+
+It should be:
+
+What work actually requires a Store Manager?
+
+That is a very different conversation.
+
+Technology, AI, automation and better centralized support should increasingly handle administrative work, reporting, routine communication, scheduling assistance and task prioritization.
+
+Not because we are trying to eliminate managers.
+
+Because we should be trying to give managers back the time to MANAGE.
+
+A great Store Manager should be watching the business.
+
+Reading the customer.
+
+Coaching associates.
+
+Developing the next Assistant Manager.
+
+Understanding why conversion moved.
+
+Challenging payroll deployment.
+
+Identifying inventory opportunities.
+
+Fixing poor execution before it becomes a bigger problem.
+
+And most importantly, being present with the team and the customer.
+
+We sometimes talk about store payroll as though every hour is interchangeable.
+
+It isn’t.
+
+An hour of a great Store Manager’s time can influence dozens of employees, hundreds of customers and thousands of dollars in sales.
+
+That makes management time an asset.
+
+Retailers should protect it accordingly.
+
+The Store Manager of the future shouldn’t become the company’s most expensive task executor.
+
+They should become the CEO of the four walls, equipped with better information, better technology, clearer priorities and greater authority to make decisions.
+
+Maybe the next big productivity opportunity in retail isn’t asking store teams to work faster.
+
+Maybe it’s finally redesigning the Store Manager role so our best leaders have time to actually lead.
+
+**Original post:** https://www.linkedin.com/posts/bjsara_the-store-manager-job-has-changed-im-not-activity-7503847181284429825-HJ2B
+
+---
+
+## Executive Retail Roundtable - NYC
+
+**Date:** December 9, 2025
+
+Last night in New York City I had the privilege of speaking at a small, private, executive roundtable alongside retail leaders with decades of experience. The conversation was candid, energetic, and exactly what our industry needs right now. We covered everything retail: holiday sales, 2026 forecast trends, the shifting consumer, tariffs, logistics, staffing, and of course - AI.
+
+Despite our different backgrounds, every perspective was rooted in deep operational experience. And while our takes varied, we all aligned on one motto:
+
+Reinvent your business or your business will die.
+
+It sounds harsh, but it’s the truth. Retail is evolving faster than ever, and standing still is no longer an option.
+
+Holiday 2025 - Cautious Strength
+
+We opened with the holiday season. Projections call for 3.7%-4.2% growth. Yet growth is uneven. Inflation and higher pricing have made consumers more selective, more value-driven, and far more intentional with their purchases.
+
+Traffic may be strong, but conversion is earned - not promised.
+
+Logistics, Tariffs & the 2026 Reality
+
+We spent considerable time on supply chain pressures. U.S. ports processed just over 2.07M TEUs in October, nearly 8% below last year, and forecasts suggest softer import volumes into 2026 as tariff uncertainty continues.
+
+The downstream impact is enormous:
+• Higher freight costs
+• Less predictable lead-times
+• Shifts toward near-shoring and higher safety stock
+• Margin pressure across the board
+
+No retailer is immune.
+
+Staffing: The Human Engine
+
+Holiday hiring is underway, but staffing today is different from years past. Skills now span fulfillment, digital engagement, omnichannel operations, inventory tech, and in some cases, AI-supported tools. The message was clear:
+
+You can’t simply staff up - you must staff right - Training, retention, and brand alignment matter more than ever.
+
+AI: The New Baseline
+
+AI dominated the back half of the conversation. Whether for forecasting, allocation, personalization, or store-level task automation, AI is no longer optional. Many retailers began using it reactively in 2025; in 2026 it becomes a competitive requirement.
+
+The Core Message: Evolve or Become Obsolete
+
+Even if you:
+• buy right
+• staff right
+• train right
+• manage right
+• bank right
+
+…it’s still not enough.
+
+You must continuously evolve - your model, your mix, your tech, your labor strategy, your customer experience. Yesterday’s wins do not guarantee tomorrow’s survival.
+
+As one executive put it:
+“Retail isn’t a business - it’s a living organism. If it doesn’t evolve, it dies.”
+
+**Original post:** https://www.linkedin.com/posts/bjsara_executive-retail-roundtable-nyc-last-activity-7404237251204812800-bVfp
+
+---
+
+## OWNING THE STORE P&L - NOT JUST READING IT
+
+**Date:** October 27, 2025
+
+As operators, we all say we “own the P&L.” But few truly do.
+Owning the store’s profit and loss statement means understanding that every number on that sheet reflects a real decision made on the floor.
+
+The P&L isn’t just an accounting report. It’s a story - of execution, merchandising, staffing, and leadership.
+
+SALES - Are your assortments right? Is your floor full, clean, and ready? Are your associates engaged and closing sales, or simply stocking shelves?
+COGS & MARGIN - Do you understand how freight, shrink, and markdowns quietly eat profit? Great merchants protect their margin as fiercely as they chase sales.
+OPERATING EXPENSES - Every light bulb, repair, and supply box is your responsibility. Watch your spend like you’d watch your own wallet.
+NET PROFIT - It’s the scoreboard of operational discipline.
+
+Owning the P&L means connecting what you see in the store to what you read in the numbers.
+If conversion drops, what happened to staffing or presentation?
+If payroll runs high, is it scheduling, training, or misaligned labor hours?
+If shrink spikes, what changed in process or people?
+
+Great operators don’t wait for the month-end report - they forecast, adjust, and teach others to think financially.
+
+You can’t influence what you don’t understand. Every store manager should know:
+
+Sales per labor hour
+Payroll % to sales
+Shrink %
+Conversion rate
+Average transaction value
+
+When those numbers are part of your team’s vocabulary, you’ve built a culture of accountability.
+
+Remember: profit isn’t made in accounting - it’s made on the floor.
+It’s made in how we manage labor to traffic, how clean we keep our stores, how we recover our racks, and how we serve our customers.
+
+A well-run store doesn’t just deliver sales - it delivers consistency, predictability, and trust in the numbers.
+
+Owning your P&L means thinking like an owner:
+
+You don’t say “corporate said.” You say, “Here’s what we can do better.”
+You don’t hide behind results. You explain them, fix them, and share the learning.
+You make decisions as if every dollar spent came from your own pocket - because, in a sense, it does.
+
+The next time you look at your P&L, ask yourself:
+“What does this line item look like on my sales floor?”
+
+That’s where real ownership begins.
+
+**Original post:** https://www.linkedin.com/posts/bjsara_owning-the-store-pl-not-just-reading-it-activity-7388608444456554496-NWQ6
+
+---
+
+## What Every Customer-Facing Business Should Revisit - The Basics Still Matter
+
+**Date:** October 21, 2025
+
+From time to time, I take on consulting work to help businesses strengthen their operations. Recently, I worked with a NY-based bagel chain. I won’t name names or share proprietary details, but I think it’s worth sharing a few universal lessons that apply to any customer-facing business.
+
+Let’s start with a simple truth: your in-person customers deserve your full attention.
+If someone walks in, stands in line, and has cash (or card) in hand - serve them first. Online orders are important, but they shouldn’t come at the expense of the people standing right in front of you. The solution? Assign dedicated staff to online fulfillment. When the rush slows down, that team can jump in to help live customers - and vice versa. That’s where a manager should be managing: balancing priorities, monitoring the floor, and ensuring no channel suffers.
+
+Lines can kill business. If your line is too long, people will turn around and never come back. Staffing, training, and task management must all be structured to avoid bottlenecks. It’s far easier to keep a customer than to win one back.
+
+Cleanliness tells your story.
+Opening and closing checklists must include detailed janitorial priorities - from the deli case to the bagel baskets, everything should shine. But don’t stop there - after cleaning, walk around the counter and look from the customer’s perspective. You’ll see what they see: crumbs, fingerprints, smudges, clutter. The customer view never lies.
+
+The front door is your first impression.
+If your windows, handles, or entry glass are dirty, you’ve already told customers everything they need to know about your standards. Clean them throughout the day. The same goes for air vents and ceiling tiles - if your HVAC diffusers have black rings of dirt, it’s not just unsightly, it’s disgusting.
+
+Listen before you act.
+When taking an order - listen carefully. Write it down. Repeat it back. It may feel slower at first, but it prevents costly mistakes that frustrate customers and slow down the line even more.
+
+Respect the customer’s request.
+If someone orders a half pound, give them half a pound. Don’t overfill the container to “upsell.” They’ll go home, try to open it, and end up with a mess. You gained 30 cents in sales but lost the next visit. Train your team to listen and deliver exactly what’s ordered.
+
+These might sound like small things, but they’re what separate a good business from a great one. Every detail - how a store looks, sounds, and feels - communicates something to your customer.
+
+Basic doesn’t mean easy. It means essential.
+
+If you see something here you disagree with or want to add your own perspective - drop me a message. I’d love to hear how you run your shop.
+
+**Original post:** https://www.linkedin.com/posts/bjsara_what-every-customer-facing-business-should-activity-7386461007646474240-xdTw
+
+---
+
+## The real power behind fashion’s youth wave:
+
+**Date:** October 13, 2025
+
+Walk past Pacsun, Garage, or Edikted at Roosevelt Field Mall lately, and you’ll see what feels like a youth takeover. The corridors once dominated by mid-tier specialty and missy fashion are now jammed with tweens, juniors, and Gen Z shoppers. The quiet in the rest of the mall is deafening by comparison.
+
+Here are the clues something profound is happening:
+
+E-commerce darlings go IRL. Brands like Edikted and Subdued - born online, built on social traction - have expanded into physical stores at Roosevelt Field. Their captive youth followings have translated into foot traffic.
+Pacsun is growing bricks & clicks in lockstep. They spend, and they influence. Pacsun’s reported revenue in recent years exceeds $700M, with ~85 % of its customer base being Gen Z.
+Trend reflex is real. What was once 8 % of Pacsun’s denim mix (baggy jeans) has exploded to ~80 % in just a year. That’s the power of teenage trend pressure.
+
+The junior-fashion corridor:
+Dozens of small-to-mid footprint stores, side-by-side, all visually shouting “Instagram moment.”
+Fitting rooms lined with waiting tweens. Arms full of garments. Some stores even installed photo booths, neon backdrops, fun lighting, mirror selfies staging areas.
+Department stores and more classic specialty names? Almost silent. Their traffic doesn’t seem to compete.
+The investment in store build-outs and merchandising is serious. It’s polished. Energetic. Focused on youth sensibility.
+The demand isn’t just local. These stores lean on their digital roots: fans & followers - many coming from their online communities to see their favorite brands in real life.
+
+Youth can (and will) dominate physical retail
+The narrative that “digital natives don’t step into stores” is fading. If you build a store that speaks their language - from product to experience - they show up in droves.
+Direct-to-consumer + social equity carry enormous weight
+These junior brands started with digital-first communities. The physical store is a stage to deepen relationships, not a burden.
+Trend speed is lightning-fast
+If your design, buying, and merchandising cycles are too slow - no amount of brand heritage will save you. These shoppers live in the now, the hype, the drop.
+Visual storytelling is non-negotiable
+Store décor, lighting, mirror selfies, engaging displays - these are part of the product. They are capital investments, not optional extras.
+The product-pricing-experience triangle is key
+You need the right item at the right price, but also how it’s discovered, how it’s sold, how it’s captured in a story or community.
+
+We tend to talk a lot about Gen Z’s power in the digital world. But what we’re seeing in Roosevelt Field is a proving ground: youth culture is shaping the real-world retail landscape now. It’s a leaderboard lesson for legacy brands, mall managers, department stores - and anyone trying to connect to the next generation of shoppers.
+
+- +5
+
+**Original post:** https://www.linkedin.com/posts/bjsara_the-real-power-behind-fashions-youth-wave-activity-7383525723434586112-O0eJ
+
+---
+
+## Great Jeans vs. Better in Denim: Two Campaigns, Two Outcomes
+
+**Date:** September 4, 2025
+
+The past few weeks gave retail operators a perfect side-by-side lesson in how creative buzz and P&L discipline intersect.
+
+American Eagle (AE) put Sydney Sweeney at the heart of its “Has Great Jeans” campaign. The cheeky tagline polarized, but it grabbed attention everywhere - from social chatter to billboards on the Las Vegas Sphere. AE didn’t just spark conversation; it sparked conversion. The brand reported a strong quarter, shares popped, and management credited the campaign for heightened demand. Creative, operations, and merchandising aligned - and the results showed.
+
+Gap, under CEO Richard Dickson, leaned into culture with “Better in Denim” featuring KATSEYE. The campaign went viral, generated hundreds of millions of views, and reminded many consumers that Gap can still set the tone in denim. But Wall Street wasn’t swayed. Tariff headwinds and margin pressures weighed on the stock, despite the creative win. The campaign proved relevance, but investors wanted proof of profitability protection.
+
+Operator Takeaways
+
+Campaigns must connect to capacity. AE matched buzz with inventory and store readiness. Gap lit a cultural spark, but translating that into comp growth is still in play.
+Controversy can be an asset. AE leaned into the “Has Great Jeans” debate, keeping the conversation about denim.
+Finance is still the final grade. Marketing momentum is real, but margin math tells the longer-term story.
+
+Questions for Retail Leaders
+
+How do you balance bold creative with brand safety?
+What systems do you have in place to ensure a campaign spike can actually be fulfilled - merch, labor, checkout speed?
+How are you protecting profitability against macro headwinds (tariffs, inflation) while keeping campaigns hot?
+
+Bottom line: Viral is a moment. Velocity is a strategy. The strongest brands make sure creative energy, operational readiness, and financial performance move in sync.
+
+**Original post:** https://www.linkedin.com/posts/bjsara_great-jeans-vs-better-in-denim-two-campaigns-activity-7369387922711658496-NgVK
+
+---
+
+## When Sales Are Booming… But Operations Are M I A
+
+**Date:** August 11, 2025
+
+Yesterday at PacSun, my daughter - the offspring of a retail operator - had an armful of merchandise - easily a few hundred dollars’ worth. But when she stepped into the fitting room, the mirror was so filthy she couldn’t even see herself (minor exaggeration). She decided it wasn’t worth it. Just like that, a big sale disappeared. (Both my daughters had similar reactions... enough to prompt this post)
+
+The store was busy. Lines were long. The floor was packed. But the operational shortfalls were impossible to miss:
+
+Checkout bottleneck: Only 2 of 4 registers open.
+Cash wrap chaos: Putbacks tossed everywhere, creating clutter and confusion.
+Storefront neglect: Glass doors and windows covered in a visible film of grime.
+Leadership void: No manager in sight - just a young, overwhelmed team trying to keep up.
+
+The irony? This wasn’t a bad sales day. It was great. The store was doing business - but it could have done better. One capable manager on the floor could have:
+
+Directed payroll to maximize coverage at the registers.
+Deployed staff to maintain fitting rooms, recovery, and store appearance.
+Led the team in real time to turn chaos into controlled efficiency.
+
+Operations don’t just support sales - they unlock them. Yesterday, PacSun didn’t just lose our purchase; I’m sure we weren’t the only ones who walked away.
+
+When traffic is at its peak, that’s when leadership matters most. Because in retail, the difference between a “good day” and a “record day” can come down to one manager on the floor.
+
+(My daughter took this photo without me asking for it...)
+
+**Original post:** https://www.linkedin.com/posts/bjsara_when-sales-are-booming-but-operations-are-activity-7360738409079865345-q_M5
+
+---
