@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { FacebookFeed } from "@/components/FacebookFeed";
+import { company } from "@/data/company";
 import { galleryPhotos } from "@/data/gallery";
 
 export const metadata: Metadata = {
@@ -32,6 +34,13 @@ export default function Gallery() {
           </li>
         ))}
       </ul>
+
+      <h2 className="mt-16 text-3xl font-extrabold sm:text-4xl">
+        From our Facebook page
+      </h2>
+      <div className="mt-8">
+        <FacebookFeed url={company.social.facebook.url} />
+      </div>
     </section>
   );
 }
