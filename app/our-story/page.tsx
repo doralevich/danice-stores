@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Button } from "@/components/Button";
 import { company } from "@/data/company";
 
@@ -77,10 +78,19 @@ export default function OurStory() {
         <h2 className="text-3xl font-extrabold sm:text-4xl">Our Team</h2>
         <ul className="mt-8 grid gap-8 md:grid-cols-2">
           {company.team.map((person) => (
-            <li key={person.name} className="border-l-4 border-magenta pl-5">
-              <h3 className="text-2xl leading-tight font-bold">{person.name}</h3>
-              <p className="mt-1 text-lg font-semibold text-magenta-deep">{person.title}</p>
-              <p className="mt-3 max-w-[48ch] text-lg leading-relaxed">{person.bio}</p>
+            <li key={person.name} className="flex gap-5">
+              <Image
+                src={person.photo}
+                alt={person.name}
+                width={112}
+                height={112}
+                className="size-24 shrink-0 object-cover sm:size-28"
+              />
+              <div>
+                <h3 className="text-2xl leading-tight font-bold">{person.name}</h3>
+                <p className="mt-1 text-lg font-semibold text-magenta-deep">{person.title}</p>
+                <p className="mt-3 max-w-[48ch] text-lg leading-relaxed">{person.bio}</p>
+              </div>
             </li>
           ))}
         </ul>

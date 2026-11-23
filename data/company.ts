@@ -26,6 +26,7 @@ export const company = {
     {
       name: "BJ Sara",
       title: "Chief Operating Officer",
+      photo: "/team/bj-sara.jpg",
       bio: "BJ leads retail operations at Danice, looking after the stores and the teams who run them. His focus is the same as the company\u2019s: keeping great style within reach in every neighborhood we serve.",
     },
   ],
