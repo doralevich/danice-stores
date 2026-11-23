@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { posts } from "@/data/blog";
 import { Logo } from "./Logo";
 
 const nav = [
@@ -6,6 +7,8 @@ const nav = [
   { href: "/our-story", label: "Our Story" },
   { href: "/stores", label: "Stores" },
   { href: "/gallery", label: "Gallery" },
+  // Blog joins the menu once it has at least one post.
+  ...(posts.length > 0 ? [{ href: "/blog", label: "Blog" }] : []),
   { href: "/contact", label: "Contact" },
 ];
 
