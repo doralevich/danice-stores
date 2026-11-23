@@ -22,3 +22,21 @@ body {
   line-height: 0.95;
   letter-spacing: -0.01em;
 }
+
+.hang-tag {
+  clip-path: polygon(0 0, calc(100% - 2.25rem) 0, 100% 2.25rem, 100% 100%, 0 100%);
+}
+
+@keyframes ticker {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.ticker {
+  animation: ticker 60s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker {
+    animation: none;
+  }
+}
