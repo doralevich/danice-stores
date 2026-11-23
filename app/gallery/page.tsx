@@ -15,7 +15,7 @@ export default function Gallery() {
       <h1 className="text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.05] font-extrabold tracking-tight">
         Photo Gallery
       </h1>
-      <p className="mt-5 max-w-[46ch] text-xl leading-relaxed">
+      <p className="mt-5 text-xl leading-relaxed">
         Our stores, our signs, and what is on the racks.
       </p>
       {/* Columns let photos keep their own shapes. Four columns on wide

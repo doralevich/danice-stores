@@ -28,11 +28,11 @@ export default function OurStory() {
   return (
     <>
       <section className="mx-auto max-w-6xl px-5 pt-14 pb-12 sm:px-8 sm:pt-20 sm:pb-16">
-        <h1 className="max-w-[18ch] text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.05] font-extrabold tracking-tight">
+        <h1 className="text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.05] font-extrabold tracking-tight">
           A New York family business{" "}
           <span className="text-magenta">since 1934.</span>
         </h1>
-        <div className="mt-8 max-w-[60ch] space-y-5 text-xl leading-relaxed">
+        <div className="mt-8 space-y-5 text-xl leading-relaxed">
           <p>
             Danice opened its doors in 1934 on 14th Street in New York City.
             More than 90 years and the best customers in the business later, we
@@ -67,7 +67,7 @@ export default function OurStory() {
                 <dt className="text-5xl leading-none font-extrabold tracking-tight text-magenta sm:text-6xl">
                   {item.year}
                 </dt>
-                <dd className="mt-3 max-w-[36ch] text-xl leading-relaxed">
+                <dd className="mt-3 text-xl leading-relaxed">
                   {item.text}
                 </dd>
               </div>
@@ -92,7 +92,7 @@ export default function OurStory() {
                 className="size-48 shrink-0 rounded-[10px] object-cover sm:size-56"
                 sizes="224px"
               />
-              <div className="max-w-[62ch]">
+              <div className="flex-1">
                 <h3 className="text-2xl leading-tight font-bold">
                   {person.name}
                 </h3>
@@ -115,10 +115,10 @@ export default function OurStory() {
       </section>
 
       <section className="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-20">
-        <p className="max-w-[22ch] text-3xl leading-tight font-extrabold sm:text-4xl">
+        <p className="text-3xl leading-tight font-extrabold sm:text-4xl">
           Where fashion meets finance.
         </p>
-        <p className="mt-4 max-w-[40ch] text-xl leading-relaxed">
+        <p className="mt-4 text-xl leading-relaxed">
           Affordable fashion for women of any size.
         </p>
         <p className="mt-8">

@@ -38,7 +38,7 @@ export default function Home() {
               <br />
               <span className="text-magenta">Great price.</span>
             </h1>
-            <p className="mt-6 max-w-[38ch] text-xl leading-relaxed sm:text-2xl sm:leading-relaxed">
+            <p className="mt-6 text-xl leading-relaxed sm:text-2xl sm:leading-relaxed">
               Women&rsquo;s fashion, shoes, and accessories for every size. A
               New York family business since 1934.
             </p>
@@ -68,7 +68,6 @@ export default function Home() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-xl">New styles every week. Every size. Always.</p>
         </div>
       </section>
 
@@ -90,7 +89,7 @@ export default function Home() {
           <p className="text-7xl leading-none font-extrabold tracking-tight text-magenta sm:text-8xl">
             1934
           </p>
-          <div className="max-w-[52ch]">
+          <div>
             <h2 className={h2}>A New York family business.</h2>
             <p className="mt-4 text-xl leading-relaxed">
               Danice opened on 14th Street in 1934. Four generations later, we
