@@ -60,7 +60,7 @@ export function StoreMap({ stores }: { stores: Store[] }) {
             `<strong>${escapeHtml(store.streetName)}</strong><br>` +
               `${escapeHtml(store.street)}<br>` +
               `${escapeHtml(`${store.city}, ${store.state} ${store.zip}`)}<br>` +
-              `<a href="${directionsUrl(store)}">Get directions</a>`,
+              `<a href="${directionsUrl(store)}" target="_blank" rel="noopener noreferrer">Get directions</a>`,
           );
       }
 
