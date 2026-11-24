@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { excerpt, formatPostDate, sortedPosts } from "@/data/blog";
 import { company } from "@/data/company";
 import { visibleStores } from "@/data/stores";
 import { Button } from "@/components/Button";
@@ -27,6 +28,8 @@ const carry = ["Clothing", "Plus size", "Shoes", "Accessories"];
 
 const wrap = "mx-auto max-w-6xl px-5 sm:px-8";
 const h2 = "text-3xl font-extrabold sm:text-4xl";
+
+const latestPosts = sortedPosts.slice(0, 3);
 
 export default function Home() {
   return (
@@ -118,6 +121,48 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Latest blog posts */}
+      {latestPosts.length > 0 ? (
+        <section className="border-t border-plum/15">
+          <div className={`${wrap} py-14 sm:py-20`}>
+            <h2 className={h2}>From the blog</h2>
+            <ul className="mt-8 grid gap-6 md:grid-cols-3">
+              {latestPosts.map((post) => (
+                <li key={post.slug}>
+                  <article className="flex h-full flex-col rounded-[10px] border border-plum/15 p-6">
+                    <p className="text-base font-semibold text-magenta-deep">
+                      <time dateTime={post.date}>{formatPostDate(post.date)}</time>
+                    </p>
+                    <h3 className="mt-2 text-xl leading-snug font-extrabold">
+                      <Link
+                        href={`/blog/${post.slug}`}
+                        className="hover:text-magenta-deep hover:underline hover:underline-offset-4"
+                      >
+                        {post.title}
+                      </Link>
+                    </h3>
+                    <p className="mt-3 text-lg leading-relaxed">{excerpt(post, 140)}</p>
+                    <p className="mt-auto pt-5 text-lg font-semibold">
+                      <Link
+                        href={`/blog/${post.slug}`}
+                        className="underline underline-offset-4 hover:text-magenta-deep"
+                      >
+                        Read more<span className="sr-only">: {post.title}</span>
+                      </Link>
+                    </p>
+                  </article>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-8 text-lg font-semibold">
+              <Link href="/blog" className="underline underline-offset-4 hover:text-magenta-deep">
+                See all posts
+              </Link>
+            </p>
+          </div>
+        </section>
+      ) : null}
 
       {/* Instagram */}
       <section className="border-t border-plum/15">
