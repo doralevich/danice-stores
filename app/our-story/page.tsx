@@ -84,14 +84,16 @@ export default function OurStory() {
               key={person.name}
               className="flex flex-col gap-6 sm:flex-row sm:gap-8"
             >
-              <Image
-                src={person.photo}
-                alt={person.name}
-                width={800}
-                height={800}
-                className="size-48 shrink-0 rounded-[10px] object-cover sm:size-56"
-                sizes="224px"
-              />
+              {person.photo ? (
+                <Image
+                  src={person.photo}
+                  alt={person.name}
+                  width={800}
+                  height={800}
+                  className="size-48 shrink-0 rounded-[10px] object-cover sm:size-56"
+                  sizes="224px"
+                />
+              ) : null}
               <div className="flex-1">
                 <h3 className="text-2xl leading-tight font-bold">
                   {person.name}
@@ -100,18 +102,39 @@ export default function OurStory() {
                   {person.title}
                 </p>
                 <p className="mt-3 text-lg leading-relaxed">{person.bio}</p>
-                <figure className="mt-6 rounded-[10px] border-l-4 border-magenta bg-blush p-6">
-                  <blockquote className="text-xl leading-snug font-semibold sm:text-2xl sm:leading-snug">
-                    &ldquo;{person.quote.text}&rdquo;
-                  </blockquote>
-                  <figcaption className="mt-3 text-base leading-relaxed">
-                    {person.name}, {person.quote.source}
-                  </figcaption>
-                </figure>
+                {person.quote ? (
+                  <figure className="mt-6 rounded-[10px] border-l-4 border-magenta bg-blush p-6">
+                    <blockquote className="text-xl leading-snug font-semibold sm:text-2xl sm:leading-snug">
+                      &ldquo;{person.quote.text}&rdquo;
+                    </blockquote>
+                    <figcaption className="mt-3 text-base leading-relaxed">
+                      {person.name}, {person.quote.source}
+                    </figcaption>
+                  </figure>
+                ) : null}
               </div>
             </li>
           ))}
         </ul>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-5 pt-14 sm:px-8 sm:pt-20">
+        <h2 className="text-3xl font-extrabold sm:text-4xl">Our Buying Team</h2>
+        <div className="mt-6 space-y-5 text-xl leading-relaxed">
+          <p>
+            Our Buying Team is the best in the business. They work tirelessly
+            to uncover the best deals, identify emerging fashion trends, and
+            source exciting merchandise at unbeatable prices.
+          </p>
+          <p>
+            With decades of experience and some of the deepest relationships in
+            the industry, we&rsquo;re among the first to get the call when
+            opportunities arise. Our passion for fashion, relentless pursuit of
+            value, and extensive market connections allow us to continually
+            bring fresh, on-trend merchandise and incredible savings directly
+            to our customers.
+          </p>
+        </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-20">
@@ -122,7 +145,7 @@ export default function OurStory() {
           Affordable fashion for women of any size.
         </p>
         <p className="mt-8">
-          <Button href="/stores">Find a store</Button>
+          <Button href="/contact">Contact us</Button>
         </p>
       </section>
     </>
