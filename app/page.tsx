@@ -1,14 +1,10 @@
 import Link from "next/link";
 import { excerpt, formatPostDate, sortedPosts } from "@/data/blog";
 import { company } from "@/data/company";
-import { visibleStores } from "@/data/stores";
 import { Button } from "@/components/Button";
-import { GoogleStoreMap } from "@/components/GoogleStoreMap";
 import { HeroFlower } from "@/components/HeroFlower";
 import { InstagramFeed } from "@/components/InstagramFeed";
 import { Petal } from "@/components/Petal";
-import { StoreCard } from "@/components/StoreCard";
-import { StoreMap } from "@/components/StoreMap";
 
 const organization = {
   "@context": "https://schema.org",
@@ -20,11 +16,7 @@ const organization = {
   sameAs: [company.social.instagram.url, company.social.linkedin.url],
 };
 
-// A Google map is used once NEXT_PUBLIC_GOOGLE_MAPS_API_KEY is set in Vercel.
-// Until then the OpenStreetMap version shows, so the page always has a map.
-const googleMapsKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
-
-const carry = ["Clothing", "Plus size", "Shoes", "Accessories"];
+const carry = ["Clothing", "Plus size", "Footwear", "Accessories"];
 
 const wrap = "mx-auto max-w-6xl px-5 sm:px-8";
 const h2 = "text-3xl font-extrabold sm:text-4xl";
@@ -49,16 +41,16 @@ export default function Home() {
               <span className="text-magenta">Great price.</span>
             </h1>
             <p className="mt-6 text-xl leading-relaxed sm:text-2xl sm:leading-relaxed">
-              Women&rsquo;s fashion, shoes, and accessories for every size. A
+              Women&rsquo;s fashion, footwear, and accessories for every size. A
               New York family business since 1934.
             </p>
             <p className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
-              <Button href="/stores">Find a store</Button>
+              <Button href="/our-story">Our Story</Button>
               <Link
-                href="/our-story"
+                href="/contact"
                 className="text-lg font-semibold underline underline-offset-4 hover:text-magenta-deep"
               >
-                Our Story
+                Contact us
               </Link>
             </p>
           </div>
@@ -84,19 +76,9 @@ export default function Home() {
       {/* Stores */}
       <section>
         <div className={`${wrap} py-14 sm:py-20`}>
-          <h2 className={h2}>Find your Danice</h2>
-          <div className="mt-8">
-            {googleMapsKey ? (
-              <GoogleStoreMap stores={visibleStores} apiKey={googleMapsKey} />
-            ) : (
-              <StoreMap stores={visibleStores} />
-            )}
-          </div>
-          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {visibleStores.map((store) => (
-              <StoreCard key={store.slug} store={store} />
-            ))}
-          </div>
+          <h2 className="text-[clamp(2rem,5vw,3.5rem)] leading-[1.1] font-extrabold tracking-tight">
+            Stores throughout <span className="text-magenta">NY, NJ, PA, FL</span>
+          </h2>
         </div>
       </section>
 

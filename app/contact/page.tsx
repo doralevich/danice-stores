@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { company } from "@/data/company";
 import { ContactForm } from "./ContactForm";
 
@@ -30,16 +29,6 @@ export default function Contact() {
           <br />
           {office.city}, {office.state} {office.zip}
         </address>
-
-        <p className="mt-10 rounded-[10px] border-l-4 border-magenta bg-blush p-5 text-lg leading-relaxed">
-          Question about a specific store? Call the store directly.{" "}
-          <Link
-            href="/stores"
-            className="font-semibold underline underline-offset-4 hover:text-magenta-deep"
-          >
-            Find your store
-          </Link>
-        </p>
       </div>
 
       <ContactForm />

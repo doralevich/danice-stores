@@ -5,7 +5,6 @@ import { Logo } from "./Logo";
 const nav = [
   { href: "/", label: "Home" },
   { href: "/our-story", label: "Our Story" },
-  { href: "/stores", label: "Stores" },
   { href: "/gallery", label: "Gallery" },
   // Blog joins the menu once it has at least one post.
   ...(posts.length > 0 ? [{ href: "/blog", label: "Blog" }] : []),
